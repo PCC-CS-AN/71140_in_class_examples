@@ -34,6 +34,7 @@
 # OS
 *.DS_Store
 *~
+*.user
 
 # Output
 build*
