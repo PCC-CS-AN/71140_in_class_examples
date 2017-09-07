@@ -1,6 +1,9 @@
 # 71140_in_class_examples
 Examples from class lectures
 
+## Skeleton
+Find the program format here: https://github.com/PCC-CS-AN/71140_in_class_examples/blob/master/lecture2_8_30_2017/main.cpp
+
 ## Usage
 If you are a non-CS major you can just download individual files or download all of the files as a zip.
 
