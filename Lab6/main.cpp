@@ -1,11 +1,12 @@
 /*
  * Assignment Title
  * Full Name - ID Numbers
- *
+ * 
  * Short problem description
- *
+ * 
  */
 
+#include <iostream>
 #include <cassert>
 
 using namespace std;
@@ -26,7 +27,7 @@ double quadratic(double a, double b, double c);
 // y1 - The y value of the first point
 // x2 - The x value of the second point
 // y2 - The y value of the second point
-// return - the distance between (x1,y1) and (x2,x2)
+// return - the distance between (x1,y1) and (x2,y2)
 double distance(double x1, double y1, double x2, double y2);
 
 int main() {
@@ -41,16 +42,16 @@ int main() {
 void test() {
   // test quadratic
   assert(quadratic(1,2,-15),3);
-  assert(quadratic(1,6,8),2);
-
+  assert(quadratic(1,6,8),-2);
+  
   // Write at least 3 additional tests here
-
+  
   // test distance
   assert(distance(5,2,2,-2),5);
   assert(distance(-5,13,-10,1),13);
 
   // Write at least 3 additional tests here
-
+  
 }
 
 // Function Definitions
