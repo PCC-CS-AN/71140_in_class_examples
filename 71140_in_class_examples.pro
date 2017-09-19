@@ -8,4 +8,6 @@ SUBDIRS += \
     lecture4_9_11_2017 \
     quiz3 \
     lecture4_9_13_2017 \
-    lecture5_9_13_2017
+    lecture5_9_13_2017 \
+    Lab6 \
+    lecture6_9_18_2017
