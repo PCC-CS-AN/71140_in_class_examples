@@ -41,14 +41,14 @@ int main() {
 // Tests
 void test() {
   // test quadratic
-  assert(quadratic(1,2,-15),3);
-  assert(quadratic(1,6,8),-2);
+  assert(quadratic(1,2,-15) == 3);
+  assert(quadratic(1,6,8) == -2);
   
   // Write at least 3 additional tests here
   
   // test distance
-  assert(distance(5,2,2,-2),5);
-  assert(distance(-5,13,-10,1),13);
+  assert(distance(5,2,2,-2) == 5);
+  assert(distance(-5,13,-10,1) == 13);
 
   // Write at least 3 additional tests here
   
