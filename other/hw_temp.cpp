@@ -3,13 +3,18 @@
  * Implement the code, and write comments described in the
  * //TODO:
  * formatted comments. 
+ *
  * //NOTE:
  * comments clarify parts of the given code.
+ * 
+ * //IGNORE:
+ * comments mark code which can be safely ignored.
  **/
 
 //TODO: Insert your header
 //NOTE: Your header no longer needs to include inputs and outputs
 
+#include <iostream>
 #include <cassert>
 #include <string>
 
