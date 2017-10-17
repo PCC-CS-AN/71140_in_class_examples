@@ -3,6 +3,14 @@
 
 using namespace std;
 
+bool eq(vector<int> v1, vector<int> v2);
+
+int main() {
+  assert(eq( { } , { } ));
+  assert(eq( {4,5,6} , {4,5,6} ));
+  return 0;
+}
+
 bool eq(vector<int> v1, vector<int> v2) {
   int i = 0;
 
@@ -18,9 +26,4 @@ bool eq(vector<int> v1, vector<int> v2) {
   }
 
   return true;
-}
-int main() {
-  assert(eq( { } , { } ));
-  assert(eq( {4,5,6} , {4,5,6} ));
-  return 0;
 }
