@@ -3,7 +3,7 @@
 #include <cassert>
 
 using namespace std;
-using Row = vector<int>;
+using Row = vector<char>;
 using Board = vector<Row>;
 // Checks a single column for a win
 bool connect_col(Board b, int col) {
