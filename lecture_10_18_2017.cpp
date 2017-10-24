@@ -68,10 +68,9 @@ bool connect_four(Board b) {
 }
 
 int main() {
-	Row r(7,' ');
-	Board board(6,r);
+	Board b = { { ' ', ' '} };
 	
-	assert(connect_four(board) == false);
+	assert(connect_four(b) == false);
 	
 	return 0;
 }
